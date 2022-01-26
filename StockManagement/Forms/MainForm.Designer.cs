@@ -77,7 +77,7 @@ namespace StockManagement.Forms
             this.SideMenu.Location = new System.Drawing.Point(0, 0);
             this.SideMenu.Name = "SideMenu";
             this.SideMenu.ShadowDecoration.Parent = this.SideMenu;
-            this.SideMenu.Size = new System.Drawing.Size(382, 789);
+            this.SideMenu.Size = new System.Drawing.Size(380, 789);
             this.SideMenu.TabIndex = 0;
             // 
             // ProductsSubMenu
@@ -89,7 +89,7 @@ namespace StockManagement.Forms
             this.ProductsSubMenu.Location = new System.Drawing.Point(0, 849);
             this.ProductsSubMenu.Name = "ProductsSubMenu";
             this.ProductsSubMenu.ShadowDecoration.Parent = this.ProductsSubMenu;
-            this.ProductsSubMenu.Size = new System.Drawing.Size(361, 111);
+            this.ProductsSubMenu.Size = new System.Drawing.Size(359, 111);
             this.ProductsSubMenu.TabIndex = 9;
             // 
             // ProductList
@@ -104,13 +104,13 @@ namespace StockManagement.Forms
             this.ProductList.DisabledState.Parent = this.ProductList;
             this.ProductList.Dock = System.Windows.Forms.DockStyle.Top;
             this.ProductList.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.ProductList.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProductList.ForeColor = System.Drawing.Color.White;
+            this.ProductList.Font = new System.Drawing.Font("Poppins Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProductList.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(214)))), ((int)(((byte)(219)))));
             this.ProductList.HoverState.Parent = this.ProductList;
             this.ProductList.Location = new System.Drawing.Point(0, 53);
             this.ProductList.Name = "ProductList";
             this.ProductList.ShadowDecoration.Parent = this.ProductList;
-            this.ProductList.Size = new System.Drawing.Size(361, 53);
+            this.ProductList.Size = new System.Drawing.Size(359, 53);
             this.ProductList.TabIndex = 3;
             this.ProductList.Text = "Liste produits";
             this.ProductList.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -128,13 +128,13 @@ namespace StockManagement.Forms
             this.AddProduct.DisabledState.Parent = this.AddProduct;
             this.AddProduct.Dock = System.Windows.Forms.DockStyle.Top;
             this.AddProduct.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.AddProduct.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddProduct.ForeColor = System.Drawing.Color.White;
+            this.AddProduct.Font = new System.Drawing.Font("Poppins Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddProduct.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(214)))), ((int)(((byte)(219)))));
             this.AddProduct.HoverState.Parent = this.AddProduct;
             this.AddProduct.Location = new System.Drawing.Point(0, 0);
             this.AddProduct.Name = "AddProduct";
             this.AddProduct.ShadowDecoration.Parent = this.AddProduct;
-            this.AddProduct.Size = new System.Drawing.Size(361, 53);
+            this.AddProduct.Size = new System.Drawing.Size(359, 53);
             this.AddProduct.TabIndex = 2;
             this.AddProduct.Text = "Ajouter produit";
             this.AddProduct.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -152,7 +152,7 @@ namespace StockManagement.Forms
             this.ProductButton.DisabledState.Parent = this.ProductButton;
             this.ProductButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.ProductButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(64)))));
-            this.ProductButton.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProductButton.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProductButton.ForeColor = System.Drawing.Color.White;
             this.ProductButton.HoverState.Parent = this.ProductButton;
             this.ProductButton.Image = ((System.Drawing.Image)(resources.GetObject("ProductButton.Image")));
@@ -161,7 +161,7 @@ namespace StockManagement.Forms
             this.ProductButton.Location = new System.Drawing.Point(0, 769);
             this.ProductButton.Name = "ProductButton";
             this.ProductButton.ShadowDecoration.Parent = this.ProductButton;
-            this.ProductButton.Size = new System.Drawing.Size(361, 80);
+            this.ProductButton.Size = new System.Drawing.Size(359, 80);
             this.ProductButton.TabIndex = 8;
             this.ProductButton.Text = "Produits";
             this.ProductButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -176,7 +176,7 @@ namespace StockManagement.Forms
             this.SalesSubmenu.Location = new System.Drawing.Point(0, 658);
             this.SalesSubmenu.Name = "SalesSubmenu";
             this.SalesSubmenu.ShadowDecoration.Parent = this.SalesSubmenu;
-            this.SalesSubmenu.Size = new System.Drawing.Size(361, 111);
+            this.SalesSubmenu.Size = new System.Drawing.Size(359, 111);
             this.SalesSubmenu.TabIndex = 7;
             // 
             // SaleList
@@ -191,13 +191,13 @@ namespace StockManagement.Forms
             this.SaleList.DisabledState.Parent = this.SaleList;
             this.SaleList.Dock = System.Windows.Forms.DockStyle.Top;
             this.SaleList.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.SaleList.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SaleList.ForeColor = System.Drawing.Color.White;
+            this.SaleList.Font = new System.Drawing.Font("Poppins Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SaleList.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(214)))), ((int)(((byte)(219)))));
             this.SaleList.HoverState.Parent = this.SaleList;
             this.SaleList.Location = new System.Drawing.Point(0, 53);
             this.SaleList.Name = "SaleList";
             this.SaleList.ShadowDecoration.Parent = this.SaleList;
-            this.SaleList.Size = new System.Drawing.Size(361, 53);
+            this.SaleList.Size = new System.Drawing.Size(359, 53);
             this.SaleList.TabIndex = 3;
             this.SaleList.Text = "Liste ventes";
             this.SaleList.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -215,13 +215,13 @@ namespace StockManagement.Forms
             this.AddSale.DisabledState.Parent = this.AddSale;
             this.AddSale.Dock = System.Windows.Forms.DockStyle.Top;
             this.AddSale.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.AddSale.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddSale.ForeColor = System.Drawing.Color.White;
+            this.AddSale.Font = new System.Drawing.Font("Poppins Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddSale.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(214)))), ((int)(((byte)(219)))));
             this.AddSale.HoverState.Parent = this.AddSale;
             this.AddSale.Location = new System.Drawing.Point(0, 0);
             this.AddSale.Name = "AddSale";
             this.AddSale.ShadowDecoration.Parent = this.AddSale;
-            this.AddSale.Size = new System.Drawing.Size(361, 53);
+            this.AddSale.Size = new System.Drawing.Size(359, 53);
             this.AddSale.TabIndex = 2;
             this.AddSale.Text = "Nouvelle vente";
             this.AddSale.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -239,7 +239,7 @@ namespace StockManagement.Forms
             this.Ventes.DisabledState.Parent = this.Ventes;
             this.Ventes.Dock = System.Windows.Forms.DockStyle.Top;
             this.Ventes.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(64)))));
-            this.Ventes.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ventes.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Ventes.ForeColor = System.Drawing.Color.White;
             this.Ventes.HoverState.Parent = this.Ventes;
             this.Ventes.Image = ((System.Drawing.Image)(resources.GetObject("Ventes.Image")));
@@ -248,7 +248,7 @@ namespace StockManagement.Forms
             this.Ventes.Location = new System.Drawing.Point(0, 578);
             this.Ventes.Name = "Ventes";
             this.Ventes.ShadowDecoration.Parent = this.Ventes;
-            this.Ventes.Size = new System.Drawing.Size(361, 80);
+            this.Ventes.Size = new System.Drawing.Size(359, 80);
             this.Ventes.TabIndex = 6;
             this.Ventes.Text = "Ventes";
             this.Ventes.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -263,7 +263,7 @@ namespace StockManagement.Forms
             this.FournisseursSubMenu.Location = new System.Drawing.Point(0, 467);
             this.FournisseursSubMenu.Name = "FournisseursSubMenu";
             this.FournisseursSubMenu.ShadowDecoration.Parent = this.FournisseursSubMenu;
-            this.FournisseursSubMenu.Size = new System.Drawing.Size(361, 111);
+            this.FournisseursSubMenu.Size = new System.Drawing.Size(359, 111);
             this.FournisseursSubMenu.TabIndex = 5;
             // 
             // fournisseurList
@@ -278,17 +278,18 @@ namespace StockManagement.Forms
             this.fournisseurList.DisabledState.Parent = this.fournisseurList;
             this.fournisseurList.Dock = System.Windows.Forms.DockStyle.Top;
             this.fournisseurList.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.fournisseurList.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fournisseurList.ForeColor = System.Drawing.Color.White;
+            this.fournisseurList.Font = new System.Drawing.Font("Poppins Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fournisseurList.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(214)))), ((int)(((byte)(219)))));
             this.fournisseurList.HoverState.Parent = this.fournisseurList;
             this.fournisseurList.Location = new System.Drawing.Point(0, 53);
             this.fournisseurList.Name = "fournisseurList";
             this.fournisseurList.ShadowDecoration.Parent = this.fournisseurList;
-            this.fournisseurList.Size = new System.Drawing.Size(361, 53);
+            this.fournisseurList.Size = new System.Drawing.Size(359, 53);
             this.fournisseurList.TabIndex = 3;
             this.fournisseurList.Text = "Liste fournisseurs";
             this.fournisseurList.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.fournisseurList.TextOffset = new System.Drawing.Point(40, 0);
+            this.fournisseurList.Click += new System.EventHandler(this.FournisseurList_Click);
             // 
             // AddFournisseur
             // 
@@ -302,17 +303,18 @@ namespace StockManagement.Forms
             this.AddFournisseur.DisabledState.Parent = this.AddFournisseur;
             this.AddFournisseur.Dock = System.Windows.Forms.DockStyle.Top;
             this.AddFournisseur.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.AddFournisseur.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddFournisseur.ForeColor = System.Drawing.Color.White;
+            this.AddFournisseur.Font = new System.Drawing.Font("Poppins Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddFournisseur.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(214)))), ((int)(((byte)(219)))));
             this.AddFournisseur.HoverState.Parent = this.AddFournisseur;
             this.AddFournisseur.Location = new System.Drawing.Point(0, 0);
             this.AddFournisseur.Name = "AddFournisseur";
             this.AddFournisseur.ShadowDecoration.Parent = this.AddFournisseur;
-            this.AddFournisseur.Size = new System.Drawing.Size(361, 53);
+            this.AddFournisseur.Size = new System.Drawing.Size(359, 53);
             this.AddFournisseur.TabIndex = 2;
             this.AddFournisseur.Text = "Ajouter fournisseur";
             this.AddFournisseur.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.AddFournisseur.TextOffset = new System.Drawing.Point(40, 0);
+            this.AddFournisseur.Click += new System.EventHandler(this.AddFournisseur_Click);
             // 
             // FournisseursButton
             // 
@@ -326,7 +328,7 @@ namespace StockManagement.Forms
             this.FournisseursButton.DisabledState.Parent = this.FournisseursButton;
             this.FournisseursButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.FournisseursButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(64)))));
-            this.FournisseursButton.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FournisseursButton.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FournisseursButton.ForeColor = System.Drawing.Color.White;
             this.FournisseursButton.HoverState.Parent = this.FournisseursButton;
             this.FournisseursButton.Image = ((System.Drawing.Image)(resources.GetObject("FournisseursButton.Image")));
@@ -335,7 +337,7 @@ namespace StockManagement.Forms
             this.FournisseursButton.Location = new System.Drawing.Point(0, 387);
             this.FournisseursButton.Name = "FournisseursButton";
             this.FournisseursButton.ShadowDecoration.Parent = this.FournisseursButton;
-            this.FournisseursButton.Size = new System.Drawing.Size(361, 80);
+            this.FournisseursButton.Size = new System.Drawing.Size(359, 80);
             this.FournisseursButton.TabIndex = 4;
             this.FournisseursButton.Text = "Fournisseurs";
             this.FournisseursButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -350,7 +352,7 @@ namespace StockManagement.Forms
             this.ClientsSubMenu.Location = new System.Drawing.Point(0, 276);
             this.ClientsSubMenu.Name = "ClientsSubMenu";
             this.ClientsSubMenu.ShadowDecoration.Parent = this.ClientsSubMenu;
-            this.ClientsSubMenu.Size = new System.Drawing.Size(361, 111);
+            this.ClientsSubMenu.Size = new System.Drawing.Size(359, 111);
             this.ClientsSubMenu.TabIndex = 3;
             // 
             // ClientList
@@ -365,13 +367,13 @@ namespace StockManagement.Forms
             this.ClientList.DisabledState.Parent = this.ClientList;
             this.ClientList.Dock = System.Windows.Forms.DockStyle.Top;
             this.ClientList.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.ClientList.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ClientList.ForeColor = System.Drawing.Color.White;
+            this.ClientList.Font = new System.Drawing.Font("Poppins Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ClientList.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(214)))), ((int)(((byte)(219)))));
             this.ClientList.HoverState.Parent = this.ClientList;
             this.ClientList.Location = new System.Drawing.Point(0, 53);
             this.ClientList.Name = "ClientList";
             this.ClientList.ShadowDecoration.Parent = this.ClientList;
-            this.ClientList.Size = new System.Drawing.Size(361, 53);
+            this.ClientList.Size = new System.Drawing.Size(359, 53);
             this.ClientList.TabIndex = 3;
             this.ClientList.Text = "Liste clients";
             this.ClientList.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -390,13 +392,13 @@ namespace StockManagement.Forms
             this.AddClient.DisabledState.Parent = this.AddClient;
             this.AddClient.Dock = System.Windows.Forms.DockStyle.Top;
             this.AddClient.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
-            this.AddClient.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddClient.ForeColor = System.Drawing.Color.White;
+            this.AddClient.Font = new System.Drawing.Font("Poppins Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddClient.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(214)))), ((int)(((byte)(219)))));
             this.AddClient.HoverState.Parent = this.AddClient;
             this.AddClient.Location = new System.Drawing.Point(0, 0);
             this.AddClient.Name = "AddClient";
             this.AddClient.ShadowDecoration.Parent = this.AddClient;
-            this.AddClient.Size = new System.Drawing.Size(361, 53);
+            this.AddClient.Size = new System.Drawing.Size(359, 53);
             this.AddClient.TabIndex = 2;
             this.AddClient.Text = "Ajouter client";
             this.AddClient.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -415,7 +417,7 @@ namespace StockManagement.Forms
             this.ClientsButton.DisabledState.Parent = this.ClientsButton;
             this.ClientsButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.ClientsButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(64)))));
-            this.ClientsButton.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ClientsButton.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ClientsButton.ForeColor = System.Drawing.Color.White;
             this.ClientsButton.HoverState.Parent = this.ClientsButton;
             this.ClientsButton.Image = ((System.Drawing.Image)(resources.GetObject("ClientsButton.Image")));
@@ -424,7 +426,7 @@ namespace StockManagement.Forms
             this.ClientsButton.Location = new System.Drawing.Point(0, 196);
             this.ClientsButton.Name = "ClientsButton";
             this.ClientsButton.ShadowDecoration.Parent = this.ClientsButton;
-            this.ClientsButton.Size = new System.Drawing.Size(361, 80);
+            this.ClientsButton.Size = new System.Drawing.Size(359, 80);
             this.ClientsButton.TabIndex = 2;
             this.ClientsButton.Text = "Clients";
             this.ClientsButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -442,7 +444,7 @@ namespace StockManagement.Forms
             this.DashboardButton.DisabledState.Parent = this.DashboardButton;
             this.DashboardButton.Dock = System.Windows.Forms.DockStyle.Top;
             this.DashboardButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(64)))));
-            this.DashboardButton.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DashboardButton.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DashboardButton.ForeColor = System.Drawing.Color.White;
             this.DashboardButton.HoverState.Parent = this.DashboardButton;
             this.DashboardButton.Image = ((System.Drawing.Image)(resources.GetObject("DashboardButton.Image")));
@@ -451,7 +453,7 @@ namespace StockManagement.Forms
             this.DashboardButton.Location = new System.Drawing.Point(0, 130);
             this.DashboardButton.Name = "DashboardButton";
             this.DashboardButton.ShadowDecoration.Parent = this.DashboardButton;
-            this.DashboardButton.Size = new System.Drawing.Size(361, 66);
+            this.DashboardButton.Size = new System.Drawing.Size(359, 66);
             this.DashboardButton.TabIndex = 1;
             this.DashboardButton.Text = "Tableau de bord";
             this.DashboardButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -463,7 +465,7 @@ namespace StockManagement.Forms
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(361, 130);
+            this.guna2Panel1.Size = new System.Drawing.Size(359, 130);
             this.guna2Panel1.TabIndex = 0;
             // 
             // MyStock
@@ -471,7 +473,7 @@ namespace StockManagement.Forms
             this.MyStock.BackColor = System.Drawing.Color.Transparent;
             this.MyStock.Font = new System.Drawing.Font("Poppins Medium", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MyStock.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.MyStock.Location = new System.Drawing.Point(104, 44);
+            this.MyStock.Location = new System.Drawing.Point(111, 43);
             this.MyStock.Name = "MyStock";
             this.MyStock.Size = new System.Drawing.Size(144, 55);
             this.MyStock.TabIndex = 0;
@@ -480,17 +482,17 @@ namespace StockManagement.Forms
             // childContainer
             // 
             this.childContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.childContainer.Location = new System.Drawing.Point(382, 0);
+            this.childContainer.Location = new System.Drawing.Point(380, 0);
             this.childContainer.Name = "childContainer";
             this.childContainer.ShadowDecoration.Parent = this.childContainer;
-            this.childContainer.Size = new System.Drawing.Size(960, 789);
+            this.childContainer.Size = new System.Drawing.Size(1162, 789);
             this.childContainer.TabIndex = 1;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1342, 789);
+            this.ClientSize = new System.Drawing.Size(1542, 789);
             this.Controls.Add(this.childContainer);
             this.Controls.Add(this.SideMenu);
             this.Name = "MainForm";

@@ -1,7 +1,7 @@
 ﻿
 namespace StockManagement.Forms
 {
-    partial class AddClient
+    partial class AddFournisseur
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace StockManagement.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddClient));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddFournisseur));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.addClientButton = new Guna.UI2.WinForms.Guna2Button();
@@ -38,7 +38,7 @@ namespace StockManagement.Forms
             this.emailTextbox = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.prenomTextbox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.adresseTextbox = new Guna.UI2.WinForms.Guna2TextBox();
             this.nameTextbox = new Guna.UI2.WinForms.Guna2TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
@@ -61,16 +61,16 @@ namespace StockManagement.Forms
             this.guna2Panel1.Controls.Add(this.emailTextbox);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel4);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel2);
-            this.guna2Panel1.Controls.Add(this.prenomTextbox);
+            this.guna2Panel1.Controls.Add(this.adresseTextbox);
             this.guna2Panel1.Controls.Add(this.nameTextbox);
             this.guna2Panel1.Controls.Add(this.pictureBox1);
             this.guna2Panel1.Controls.Add(this.guna2CirclePictureBox1);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel1);
-            this.guna2Panel1.Location = new System.Drawing.Point(37, 32);
+            this.guna2Panel1.Location = new System.Drawing.Point(34, 32);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(1055, 698);
-            this.guna2Panel1.TabIndex = 0;
+            this.guna2Panel1.Size = new System.Drawing.Size(1061, 716);
+            this.guna2Panel1.TabIndex = 1;
             // 
             // guna2HtmlLabel3
             // 
@@ -78,9 +78,9 @@ namespace StockManagement.Forms
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(454, 130);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(62, 28);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(153, 28);
             this.guna2HtmlLabel3.TabIndex = 13;
-            this.guna2HtmlLabel3.Text = "Prenom";
+            this.guna2HtmlLabel3.Text = "Adresse fournisseur";
             // 
             // addClientButton
             // 
@@ -96,7 +96,7 @@ namespace StockManagement.Forms
             this.addClientButton.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addClientButton.ForeColor = System.Drawing.Color.White;
             this.addClientButton.HoverState.Parent = this.addClientButton;
-            this.addClientButton.Location = new System.Drawing.Point(424, 570);
+            this.addClientButton.Location = new System.Drawing.Point(427, 579);
             this.addClientButton.Name = "addClientButton";
             this.addClientButton.ShadowDecoration.Parent = this.addClientButton;
             this.addClientButton.Size = new System.Drawing.Size(180, 53);
@@ -188,39 +188,39 @@ namespace StockManagement.Forms
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(71, 130);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(39, 28);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(129, 28);
             this.guna2HtmlLabel2.TabIndex = 5;
-            this.guna2HtmlLabel2.Text = "Nom";
+            this.guna2HtmlLabel2.Text = "Nom fournisseur";
             // 
-            // prenomTextbox
+            // adresseTextbox
             // 
-            this.prenomTextbox.BorderRadius = 20;
-            this.prenomTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.prenomTextbox.DefaultText = "";
-            this.prenomTextbox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.prenomTextbox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.prenomTextbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.prenomTextbox.DisabledState.Parent = this.prenomTextbox;
-            this.prenomTextbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.prenomTextbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.prenomTextbox.FocusedState.Parent = this.prenomTextbox;
-            this.prenomTextbox.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.prenomTextbox.ForeColor = System.Drawing.Color.Black;
-            this.prenomTextbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.prenomTextbox.HoverState.Parent = this.prenomTextbox;
-            this.prenomTextbox.IconLeftOffset = new System.Drawing.Point(10, 0);
-            this.prenomTextbox.Location = new System.Drawing.Point(437, 158);
-            this.prenomTextbox.MaximumSize = new System.Drawing.Size(427, 50);
-            this.prenomTextbox.MinimumSize = new System.Drawing.Size(320, 50);
-            this.prenomTextbox.Name = "prenomTextbox";
-            this.prenomTextbox.PasswordChar = '\0';
-            this.prenomTextbox.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.prenomTextbox.PlaceholderText = "Prenom";
-            this.prenomTextbox.SelectedText = "";
-            this.prenomTextbox.ShadowDecoration.Parent = this.prenomTextbox;
-            this.prenomTextbox.Size = new System.Drawing.Size(320, 50);
-            this.prenomTextbox.TabIndex = 4;
-            this.prenomTextbox.TextOffset = new System.Drawing.Point(10, 0);
+            this.adresseTextbox.BorderRadius = 20;
+            this.adresseTextbox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.adresseTextbox.DefaultText = "";
+            this.adresseTextbox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.adresseTextbox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.adresseTextbox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.adresseTextbox.DisabledState.Parent = this.adresseTextbox;
+            this.adresseTextbox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.adresseTextbox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.adresseTextbox.FocusedState.Parent = this.adresseTextbox;
+            this.adresseTextbox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.adresseTextbox.ForeColor = System.Drawing.Color.Black;
+            this.adresseTextbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.adresseTextbox.HoverState.Parent = this.adresseTextbox;
+            this.adresseTextbox.IconLeftOffset = new System.Drawing.Point(10, 0);
+            this.adresseTextbox.Location = new System.Drawing.Point(437, 158);
+            this.adresseTextbox.MaximumSize = new System.Drawing.Size(427, 50);
+            this.adresseTextbox.MinimumSize = new System.Drawing.Size(320, 50);
+            this.adresseTextbox.Name = "adresseTextbox";
+            this.adresseTextbox.PasswordChar = '\0';
+            this.adresseTextbox.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.adresseTextbox.PlaceholderText = "Adresse";
+            this.adresseTextbox.SelectedText = "";
+            this.adresseTextbox.ShadowDecoration.Parent = this.adresseTextbox;
+            this.adresseTextbox.Size = new System.Drawing.Size(331, 50);
+            this.adresseTextbox.TabIndex = 4;
+            this.adresseTextbox.TextOffset = new System.Drawing.Point(10, 0);
             // 
             // nameTextbox
             // 
@@ -247,7 +247,7 @@ namespace StockManagement.Forms
             this.nameTextbox.PlaceholderText = "Nom";
             this.nameTextbox.SelectedText = "";
             this.nameTextbox.ShadowDecoration.Parent = this.nameTextbox;
-            this.nameTextbox.Size = new System.Drawing.Size(326, 50);
+            this.nameTextbox.Size = new System.Drawing.Size(355, 50);
             this.nameTextbox.TabIndex = 3;
             this.nameTextbox.TextOffset = new System.Drawing.Point(10, 0);
             // 
@@ -279,20 +279,21 @@ namespace StockManagement.Forms
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Poppins SemiBold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(93, 30);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(215, 50);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(295, 50);
             this.guna2HtmlLabel1.TabIndex = 0;
-            this.guna2HtmlLabel1.Text = "Nouveau Client";
+            this.guna2HtmlLabel1.Text = "Nouveau Fournisseur";
             // 
-            // AddClient
+            // AddFournisseur
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1140, 789);
             this.Controls.Add(this.guna2Panel1);
+            this.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "AddClient";
-            this.ShowIcon = false;
-            this.Text = "Ajouter Client";
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "AddFournisseur";
+            this.Text = "Ajouter Fournisseur";
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -304,17 +305,17 @@ namespace StockManagement.Forms
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
-        private Guna.UI2.WinForms.Guna2TextBox prenomTextbox;
-        private Guna.UI2.WinForms.Guna2TextBox nameTextbox;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
+        private Guna.UI2.WinForms.Guna2Button addClientButton;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2TextBox phoneTextbox;
         private Guna.UI2.WinForms.Guna2TextBox emailTextbox;
-        private Guna.UI2.WinForms.Guna2Button addClientButton;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
+        private Guna.UI2.WinForms.Guna2TextBox adresseTextbox;
+        private Guna.UI2.WinForms.Guna2TextBox nameTextbox;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
     }
 }

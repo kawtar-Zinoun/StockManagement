@@ -120,11 +120,26 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAC5SURBVGhD7dY7DsIwEIRhV9wt7rkPHVDhy3EAkhCOAbaYAoehjHn9nzRNdqNNJFvaAADAz1hv
-        jqt4OO1j6qcu9ecuDbvyTOXPVz44f/z1MeWZypV5X6tovJcbpvkLOReVK6avSTTeK8fGvDSqXDF9TaLx
-        njtCMQ1blSvPfW2i8V65sOUn7hf4Cy8xALwXu1CDaLyXG9iFlo7Ge+4IsQsBwP9gF2oQjfdyA7vQ0tF4
-        zx0hdiEAAPBKCDeCLOP3fLglTQAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAALlJREFUaEPt
+        1jsOwjAQhGFX3C3uuQ8dUOHLcQCSEI4BtpgCh6GMef2fNE12o00kW9oAAMDPWG+Oq3g47WPqpy715y4N
+        u/JM5c9XPjh//PUx5ZnKlXlfq2i8lxum+Qs5F5Urpq9JNN4rx8a8NKpcMX1NovGeO0IxDVuVK899baLx
+        Xrmw5SfuF/gLLzEAvBe7UINovJcb2IWWjsZ77gixCwHA/2AXahCN93IDu9DS0XjPHSF2IQAA8EoIN4Is
+        4/d8uCVNAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="IdClient.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clientName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clientPrenom.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clientPhone.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ClientEmail.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

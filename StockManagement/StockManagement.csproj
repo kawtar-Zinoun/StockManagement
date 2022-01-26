@@ -58,6 +58,18 @@
     <Compile Include="Forms\AddClient.Designer.cs">
       <DependentUpon>AddClient.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\AddFournisseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddFournisseur.Designer.cs">
+      <DependentUpon>AddFournisseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FournisseurList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FournisseurList.Designer.cs">
+      <DependentUpon>FournisseurList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\ClientList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +92,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\AddClient.resx">
       <DependentUpon>AddClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddFournisseur.resx">
+      <DependentUpon>AddFournisseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FournisseurList.resx">
+      <DependentUpon>FournisseurList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ClientList.resx">
       <DependentUpon>ClientList.cs</DependentUpon>

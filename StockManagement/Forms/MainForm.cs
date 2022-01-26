@@ -74,6 +74,7 @@ namespace StockManagement.Forms
             if (activeForm != null)
                 activeForm.Close();
             activeForm = childForm;
+            this.Text = childForm.Text;
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
@@ -92,6 +93,18 @@ namespace StockManagement.Forms
         private void ClientList_Click(object sender, EventArgs e)
         {
             OpenChildForm(new ClientList());
+            HideSubMenu();
+        }
+
+        private void FournisseurList_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new FournisseurList());
+            HideSubMenu();
+        }
+
+        private void AddFournisseur_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new AddFournisseur());
             HideSubMenu();
         }
     }

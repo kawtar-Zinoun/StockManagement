@@ -188,7 +188,7 @@ namespace StockManagement
             this.ClientSize = new System.Drawing.Size(1317, 771);
             this.Controls.Add(this.guna2Panel1);
             this.Name = "Login";
-            this.Text = "Login";
+            this.Text = "Connexion";
             this.Load += new System.EventHandler(this.Login_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
