@@ -76,7 +76,7 @@ namespace StockManagement.Forms
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(454, 130);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(473, 130);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(62, 28);
             this.guna2HtmlLabel3.TabIndex = 13;
@@ -84,7 +84,7 @@ namespace StockManagement.Forms
             // 
             // addClientButton
             // 
-            this.addClientButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.addClientButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.addClientButton.BorderRadius = 10;
             this.addClientButton.CheckedState.Parent = this.addClientButton;
             this.addClientButton.CustomImages.Parent = this.addClientButton;
@@ -209,7 +209,7 @@ namespace StockManagement.Forms
             this.prenomTextbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.prenomTextbox.HoverState.Parent = this.prenomTextbox;
             this.prenomTextbox.IconLeftOffset = new System.Drawing.Point(10, 0);
-            this.prenomTextbox.Location = new System.Drawing.Point(437, 158);
+            this.prenomTextbox.Location = new System.Drawing.Point(463, 158);
             this.prenomTextbox.MaximumSize = new System.Drawing.Size(427, 50);
             this.prenomTextbox.MinimumSize = new System.Drawing.Size(320, 50);
             this.prenomTextbox.Name = "prenomTextbox";
@@ -218,7 +218,7 @@ namespace StockManagement.Forms
             this.prenomTextbox.PlaceholderText = "Prenom";
             this.prenomTextbox.SelectedText = "";
             this.prenomTextbox.ShadowDecoration.Parent = this.prenomTextbox;
-            this.prenomTextbox.Size = new System.Drawing.Size(320, 50);
+            this.prenomTextbox.Size = new System.Drawing.Size(350, 50);
             this.prenomTextbox.TabIndex = 4;
             this.prenomTextbox.TextOffset = new System.Drawing.Point(10, 0);
             // 
@@ -247,7 +247,7 @@ namespace StockManagement.Forms
             this.nameTextbox.PlaceholderText = "Nom";
             this.nameTextbox.SelectedText = "";
             this.nameTextbox.ShadowDecoration.Parent = this.nameTextbox;
-            this.nameTextbox.Size = new System.Drawing.Size(326, 50);
+            this.nameTextbox.Size = new System.Drawing.Size(355, 50);
             this.nameTextbox.TabIndex = 3;
             this.nameTextbox.TextOffset = new System.Drawing.Point(10, 0);
             // 

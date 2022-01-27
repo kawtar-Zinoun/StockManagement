@@ -39,13 +39,13 @@ namespace StockManagement.Forms
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.ClientDataGrid = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.EditButton = new Guna.UI2.WinForms.Guna2Button();
+            this.Deletebutton = new Guna.UI2.WinForms.Guna2Button();
             this.IdClient = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clientName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clientPrenom = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clientPhone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ClientEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.EditButton = new Guna.UI2.WinForms.Guna2Button();
-            this.Deletebutton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ClientDataGrid)).BeginInit();
@@ -136,7 +136,7 @@ namespace StockManagement.Forms
             this.clientPrenom,
             this.clientPhone,
             this.ClientEmail});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
@@ -177,52 +177,6 @@ namespace StockManagement.Forms
             this.ClientDataGrid.ThemeStyle.RowsStyle.Height = 60;
             this.ClientDataGrid.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.ClientDataGrid.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
-            // IdClient
-            // 
-            this.IdClient.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.IdClient.FillWeight = 25.11654F;
-            this.IdClient.HeaderText = "N Client";
-            this.IdClient.MinimumWidth = 6;
-            this.IdClient.Name = "IdClient";
-            this.IdClient.ReadOnly = true;
-            // 
-            // clientName
-            // 
-            this.clientName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.clientName.FillWeight = 30.25391F;
-            this.clientName.HeaderText = "Nom";
-            this.clientName.MinimumWidth = 6;
-            this.clientName.Name = "clientName";
-            this.clientName.ReadOnly = true;
-            // 
-            // clientPrenom
-            // 
-            this.clientPrenom.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.clientPrenom.FillWeight = 30.13123F;
-            this.clientPrenom.HeaderText = "Prenom";
-            this.clientPrenom.MinimumWidth = 6;
-            this.clientPrenom.Name = "clientPrenom";
-            this.clientPrenom.ReadOnly = true;
-            // 
-            // clientPhone
-            // 
-            this.clientPhone.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
-            this.clientPhone.FillWeight = 20.82567F;
-            this.clientPhone.HeaderText = "Telephone";
-            this.clientPhone.MinimumWidth = 6;
-            this.clientPhone.Name = "clientPhone";
-            this.clientPhone.ReadOnly = true;
-            this.clientPhone.Width = 150;
-            // 
-            // ClientEmail
-            // 
-            this.ClientEmail.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ClientEmail.FillWeight = 48.67258F;
-            this.ClientEmail.HeaderText = "Email";
-            this.ClientEmail.MinimumWidth = 6;
-            this.ClientEmail.Name = "ClientEmail";
-            this.ClientEmail.ReadOnly = true;
             // 
             // EditButton
             // 
@@ -268,6 +222,51 @@ namespace StockManagement.Forms
             this.Deletebutton.TabIndex = 3;
             this.Deletebutton.Text = "Supprimer";
             this.Deletebutton.TextOffset = new System.Drawing.Point(0, 2);
+            // 
+            // IdClient
+            // 
+            this.IdClient.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.IdClient.FillWeight = 25.11654F;
+            this.IdClient.HeaderText = "N Client";
+            this.IdClient.MinimumWidth = 6;
+            this.IdClient.Name = "IdClient";
+            this.IdClient.ReadOnly = true;
+            // 
+            // clientName
+            // 
+            this.clientName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clientName.FillWeight = 30.25391F;
+            this.clientName.HeaderText = "Nom";
+            this.clientName.MinimumWidth = 6;
+            this.clientName.Name = "clientName";
+            this.clientName.ReadOnly = true;
+            // 
+            // clientPrenom
+            // 
+            this.clientPrenom.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clientPrenom.FillWeight = 30F;
+            this.clientPrenom.HeaderText = "Prenom";
+            this.clientPrenom.MinimumWidth = 6;
+            this.clientPrenom.Name = "clientPrenom";
+            this.clientPrenom.ReadOnly = true;
+            // 
+            // clientPhone
+            // 
+            this.clientPhone.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clientPhone.FillWeight = 30.82567F;
+            this.clientPhone.HeaderText = "Telephone";
+            this.clientPhone.MinimumWidth = 6;
+            this.clientPhone.Name = "clientPhone";
+            this.clientPhone.ReadOnly = true;
+            // 
+            // ClientEmail
+            // 
+            this.ClientEmail.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ClientEmail.FillWeight = 48.67258F;
+            this.ClientEmail.HeaderText = "Email";
+            this.ClientEmail.MinimumWidth = 6;
+            this.ClientEmail.Name = "ClientEmail";
+            this.ClientEmail.ReadOnly = true;
             // 
             // ClientList
             // 

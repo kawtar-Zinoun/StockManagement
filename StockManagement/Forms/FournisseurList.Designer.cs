@@ -38,10 +38,10 @@ namespace StockManagement.Forms
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.FournisseurDataGrid = new Guna.UI2.WinForms.Guna2DataGridView();
             this.Deletebutton = new Guna.UI2.WinForms.Guna2Button();
             this.EditButton = new Guna.UI2.WinForms.Guna2Button();
-            this.IdFournisseur = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FournisseurDataGrid = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FournissuerName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FournisseurAdresse = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clientPhone = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -108,76 +108,6 @@ namespace StockManagement.Forms
             this.guna2HtmlLabel1.TabIndex = 0;
             this.guna2HtmlLabel1.Text = "11";
             // 
-            // FournisseurDataGrid
-            // 
-            this.FournisseurDataGrid.AllowUserToAddRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.FournisseurDataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.FournisseurDataGrid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.FournisseurDataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.FournisseurDataGrid.BackgroundColor = System.Drawing.Color.White;
-            this.FournisseurDataGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.FournisseurDataGrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.FournisseurDataGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(70)))), ((int)(((byte)(143)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Poppins", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.FournisseurDataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.FournisseurDataGrid.ColumnHeadersHeight = 60;
-            this.FournisseurDataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.IdFournisseur,
-            this.FournissuerName,
-            this.FournisseurAdresse,
-            this.clientPhone,
-            this.ClientEmail});
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(10);
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.FournisseurDataGrid.DefaultCellStyle = dataGridViewCellStyle3;
-            this.FournisseurDataGrid.EnableHeadersVisualStyles = false;
-            this.FournisseurDataGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.FournisseurDataGrid.Location = new System.Drawing.Point(28, 119);
-            this.FournisseurDataGrid.Name = "FournisseurDataGrid";
-            this.FournisseurDataGrid.ReadOnly = true;
-            this.FournisseurDataGrid.RowHeadersVisible = false;
-            this.FournisseurDataGrid.RowHeadersWidth = 51;
-            this.FournisseurDataGrid.RowTemplate.Height = 60;
-            this.FournisseurDataGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.FournisseurDataGrid.Size = new System.Drawing.Size(1085, 567);
-            this.FournisseurDataGrid.TabIndex = 2;
-            this.FournisseurDataGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.FournisseurDataGrid.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.FournisseurDataGrid.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.FournisseurDataGrid.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.FournisseurDataGrid.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.FournisseurDataGrid.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.FournisseurDataGrid.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.FournisseurDataGrid.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(70)))), ((int)(((byte)(143)))));
-            this.FournisseurDataGrid.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.FournisseurDataGrid.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Poppins", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FournisseurDataGrid.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.FournisseurDataGrid.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.FournisseurDataGrid.ThemeStyle.HeaderStyle.Height = 60;
-            this.FournisseurDataGrid.ThemeStyle.ReadOnly = true;
-            this.FournisseurDataGrid.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(246)))), ((int)(((byte)(242)))));
-            this.FournisseurDataGrid.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
-            this.FournisseurDataGrid.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FournisseurDataGrid.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.FournisseurDataGrid.ThemeStyle.RowsStyle.Height = 60;
-            this.FournisseurDataGrid.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.FournisseurDataGrid.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
             // Deletebutton
             // 
             this.Deletebutton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -223,19 +153,89 @@ namespace StockManagement.Forms
             this.EditButton.Text = "Editer";
             this.EditButton.TextOffset = new System.Drawing.Point(0, 2);
             // 
-            // IdFournisseur
+            // FournisseurDataGrid
             // 
-            this.IdFournisseur.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.IdFournisseur.FillWeight = 40.11654F;
-            this.IdFournisseur.HeaderText = "N fournisseur";
-            this.IdFournisseur.MinimumWidth = 6;
-            this.IdFournisseur.Name = "IdFournisseur";
-            this.IdFournisseur.ReadOnly = true;
+            this.FournisseurDataGrid.AllowUserToAddRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.FournisseurDataGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.FournisseurDataGrid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.FournisseurDataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.FournisseurDataGrid.BackgroundColor = System.Drawing.Color.White;
+            this.FournisseurDataGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.FournisseurDataGrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.FournisseurDataGrid.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(70)))), ((int)(((byte)(143)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Poppins", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.FournisseurDataGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.FournisseurDataGrid.ColumnHeadersHeight = 60;
+            this.FournisseurDataGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.FournissuerName,
+            this.FournisseurAdresse,
+            this.clientPhone,
+            this.ClientEmail});
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(10);
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.FournisseurDataGrid.DefaultCellStyle = dataGridViewCellStyle3;
+            this.FournisseurDataGrid.EnableHeadersVisualStyles = false;
+            this.FournisseurDataGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.FournisseurDataGrid.Location = new System.Drawing.Point(23, 122);
+            this.FournisseurDataGrid.Name = "FournisseurDataGrid";
+            this.FournisseurDataGrid.ReadOnly = true;
+            this.FournisseurDataGrid.RowHeadersVisible = false;
+            this.FournisseurDataGrid.RowHeadersWidth = 51;
+            this.FournisseurDataGrid.RowTemplate.Height = 60;
+            this.FournisseurDataGrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.FournisseurDataGrid.Size = new System.Drawing.Size(1085, 567);
+            this.FournisseurDataGrid.TabIndex = 6;
+            this.FournisseurDataGrid.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.FournisseurDataGrid.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.FournisseurDataGrid.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.FournisseurDataGrid.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.FournisseurDataGrid.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.FournisseurDataGrid.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.FournisseurDataGrid.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.FournisseurDataGrid.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(70)))), ((int)(((byte)(143)))));
+            this.FournisseurDataGrid.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.FournisseurDataGrid.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Poppins", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FournisseurDataGrid.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.FournisseurDataGrid.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.FournisseurDataGrid.ThemeStyle.HeaderStyle.Height = 60;
+            this.FournisseurDataGrid.ThemeStyle.ReadOnly = true;
+            this.FournisseurDataGrid.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(246)))), ((int)(((byte)(242)))));
+            this.FournisseurDataGrid.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.FournisseurDataGrid.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Poppins", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FournisseurDataGrid.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.FournisseurDataGrid.ThemeStyle.RowsStyle.Height = 60;
+            this.FournisseurDataGrid.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.FournisseurDataGrid.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dataGridViewTextBoxColumn1.FillWeight = 31.11654F;
+            this.dataGridViewTextBoxColumn1.HeaderText = "N fournisseur";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // FournissuerName
             // 
             this.FournissuerName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.FournissuerName.FillWeight = 35.25391F;
+            this.FournissuerName.FillWeight = 40.25391F;
             this.FournissuerName.HeaderText = "Nom";
             this.FournissuerName.MinimumWidth = 6;
             this.FournissuerName.Name = "FournissuerName";
@@ -273,9 +273,9 @@ namespace StockManagement.Forms
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1140, 789);
+            this.Controls.Add(this.FournisseurDataGrid);
             this.Controls.Add(this.EditButton);
             this.Controls.Add(this.Deletebutton);
-            this.Controls.Add(this.FournisseurDataGrid);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FournisseurList";
@@ -296,10 +296,10 @@ namespace StockManagement.Forms
         private System.Windows.Forms.PictureBox pictureBox1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2DataGridView FournisseurDataGrid;
         private Guna.UI2.WinForms.Guna2Button Deletebutton;
         private Guna.UI2.WinForms.Guna2Button EditButton;
-        private System.Windows.Forms.DataGridViewTextBoxColumn IdFournisseur;
+        private Guna.UI2.WinForms.Guna2DataGridView FournisseurDataGrid;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn FournissuerName;
         private System.Windows.Forms.DataGridViewTextBoxColumn FournisseurAdresse;
         private System.Windows.Forms.DataGridViewTextBoxColumn clientPhone;

@@ -51,6 +51,8 @@ namespace StockManagement.Forms
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.MyStock = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.childContainer = new Guna.UI2.WinForms.Guna2Panel();
+            this.AddCategory = new Guna.UI2.WinForms.Guna2Button();
+            this.CategoryList = new Guna.UI2.WinForms.Guna2Button();
             this.SideMenu.SuspendLayout();
             this.ProductsSubMenu.SuspendLayout();
             this.SalesSubmenu.SuspendLayout();
@@ -83,13 +85,15 @@ namespace StockManagement.Forms
             // ProductsSubMenu
             // 
             this.ProductsSubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
+            this.ProductsSubMenu.Controls.Add(this.CategoryList);
+            this.ProductsSubMenu.Controls.Add(this.AddCategory);
             this.ProductsSubMenu.Controls.Add(this.ProductList);
             this.ProductsSubMenu.Controls.Add(this.AddProduct);
             this.ProductsSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.ProductsSubMenu.Location = new System.Drawing.Point(0, 849);
             this.ProductsSubMenu.Name = "ProductsSubMenu";
             this.ProductsSubMenu.ShadowDecoration.Parent = this.ProductsSubMenu;
-            this.ProductsSubMenu.Size = new System.Drawing.Size(359, 111);
+            this.ProductsSubMenu.Size = new System.Drawing.Size(359, 212);
             this.ProductsSubMenu.TabIndex = 9;
             // 
             // ProductList
@@ -115,6 +119,7 @@ namespace StockManagement.Forms
             this.ProductList.Text = "Liste produits";
             this.ProductList.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.ProductList.TextOffset = new System.Drawing.Point(40, 0);
+            this.ProductList.Click += new System.EventHandler(this.ProductList_Click);
             // 
             // AddProduct
             // 
@@ -139,6 +144,7 @@ namespace StockManagement.Forms
             this.AddProduct.Text = "Ajouter produit";
             this.AddProduct.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.AddProduct.TextOffset = new System.Drawing.Point(40, 0);
+            this.AddProduct.Click += new System.EventHandler(this.AddProduct_Click);
             // 
             // ProductButton
             // 
@@ -202,6 +208,7 @@ namespace StockManagement.Forms
             this.SaleList.Text = "Liste ventes";
             this.SaleList.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.SaleList.TextOffset = new System.Drawing.Point(40, 0);
+            this.SaleList.Click += new System.EventHandler(this.SaleList_Click);
             // 
             // AddSale
             // 
@@ -226,6 +233,7 @@ namespace StockManagement.Forms
             this.AddSale.Text = "Nouvelle vente";
             this.AddSale.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.AddSale.TextOffset = new System.Drawing.Point(40, 0);
+            this.AddSale.Click += new System.EventHandler(this.AddSale_Click);
             // 
             // Ventes
             // 
@@ -457,6 +465,7 @@ namespace StockManagement.Forms
             this.DashboardButton.TabIndex = 1;
             this.DashboardButton.Text = "Tableau de bord";
             this.DashboardButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.DashboardButton.Click += new System.EventHandler(this.DashboardButton_Click);
             // 
             // guna2Panel1
             // 
@@ -488,6 +497,54 @@ namespace StockManagement.Forms
             this.childContainer.Size = new System.Drawing.Size(1162, 789);
             this.childContainer.TabIndex = 1;
             // 
+            // AddCategory
+            // 
+            this.AddCategory.BackColor = System.Drawing.Color.DimGray;
+            this.AddCategory.CheckedState.Parent = this.AddCategory;
+            this.AddCategory.CustomImages.Parent = this.AddCategory;
+            this.AddCategory.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.AddCategory.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.AddCategory.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.AddCategory.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.AddCategory.DisabledState.Parent = this.AddCategory;
+            this.AddCategory.Dock = System.Windows.Forms.DockStyle.Top;
+            this.AddCategory.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
+            this.AddCategory.Font = new System.Drawing.Font("Poppins Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddCategory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(214)))), ((int)(((byte)(219)))));
+            this.AddCategory.HoverState.Parent = this.AddCategory;
+            this.AddCategory.Location = new System.Drawing.Point(0, 106);
+            this.AddCategory.Name = "AddCategory";
+            this.AddCategory.ShadowDecoration.Parent = this.AddCategory;
+            this.AddCategory.Size = new System.Drawing.Size(359, 53);
+            this.AddCategory.TabIndex = 4;
+            this.AddCategory.Text = "Ajouter Categorie";
+            this.AddCategory.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.AddCategory.TextOffset = new System.Drawing.Point(40, 0);
+            // 
+            // CategoryList
+            // 
+            this.CategoryList.BackColor = System.Drawing.Color.DimGray;
+            this.CategoryList.CheckedState.Parent = this.CategoryList;
+            this.CategoryList.CustomImages.Parent = this.CategoryList;
+            this.CategoryList.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.CategoryList.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.CategoryList.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.CategoryList.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.CategoryList.DisabledState.Parent = this.CategoryList;
+            this.CategoryList.Dock = System.Windows.Forms.DockStyle.Top;
+            this.CategoryList.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(58)))), ((int)(((byte)(58)))), ((int)(((byte)(89)))));
+            this.CategoryList.Font = new System.Drawing.Font("Poppins Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CategoryList.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(214)))), ((int)(((byte)(219)))));
+            this.CategoryList.HoverState.Parent = this.CategoryList;
+            this.CategoryList.Location = new System.Drawing.Point(0, 159);
+            this.CategoryList.Name = "CategoryList";
+            this.CategoryList.ShadowDecoration.Parent = this.CategoryList;
+            this.CategoryList.Size = new System.Drawing.Size(359, 53);
+            this.CategoryList.TabIndex = 5;
+            this.CategoryList.Text = "Categories";
+            this.CategoryList.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.CategoryList.TextOffset = new System.Drawing.Point(40, 0);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -496,6 +553,7 @@ namespace StockManagement.Forms
             this.Controls.Add(this.childContainer);
             this.Controls.Add(this.SideMenu);
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tableau de bord";
             this.SideMenu.ResumeLayout(false);
             this.ProductsSubMenu.ResumeLayout(false);
@@ -531,5 +589,7 @@ namespace StockManagement.Forms
         private Guna.UI2.WinForms.Guna2Button AddProduct;
         private Guna.UI2.WinForms.Guna2Button ProductButton;
         private Guna.UI2.WinForms.Guna2Panel childContainer;
+        private Guna.UI2.WinForms.Guna2Button CategoryList;
+        private Guna.UI2.WinForms.Guna2Button AddCategory;
     }
 }

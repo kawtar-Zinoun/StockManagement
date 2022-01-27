@@ -23,6 +23,8 @@ namespace StockManagement.Forms
             FournisseursSubMenu.Visible = false;
             SalesSubmenu.Visible = false;
             ProductsSubMenu.Visible = false;
+            OpenChildForm(new Dashboard());
+
         }
         private void HideSubMenu()
         {
@@ -87,25 +89,46 @@ namespace StockManagement.Forms
         private void AddClient_Click(object sender, EventArgs e)
         {
             OpenChildForm(new AddClient());
-            HideSubMenu();
         }
 
         private void ClientList_Click(object sender, EventArgs e)
         {
             OpenChildForm(new ClientList());
-            HideSubMenu();
         }
 
         private void FournisseurList_Click(object sender, EventArgs e)
         {
             OpenChildForm(new FournisseurList());
-            HideSubMenu();
         }
 
         private void AddFournisseur_Click(object sender, EventArgs e)
         {
             OpenChildForm(new AddFournisseur());
-            HideSubMenu();
+        }
+
+        private void DashboardButton_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Dashboard());
+        }
+
+        private void AddSale_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new AddSale());
+        }
+
+        private void SaleList_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new SalesList());
+        }
+
+        private void AddProduct_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new AddProduct());
+        }
+
+        private void ProductList_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ProductList());
         }
     }
 }

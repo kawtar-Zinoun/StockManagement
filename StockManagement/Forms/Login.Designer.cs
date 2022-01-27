@@ -61,6 +61,8 @@ namespace StockManagement
             // 
             // loginButton
             // 
+            this.loginButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.loginButton.BorderRadius = 10;
             this.loginButton.CheckedState.Parent = this.loginButton;
             this.loginButton.CustomImages.Parent = this.loginButton;
             this.loginButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -77,25 +79,26 @@ namespace StockManagement
             this.loginButton.Size = new System.Drawing.Size(180, 51);
             this.loginButton.TabIndex = 5;
             this.loginButton.Text = "Connexion";
+            this.loginButton.TextOffset = new System.Drawing.Point(0, -2);
             this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
             // 
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(97, 296);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(116, 22);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(103, 28);
             this.guna2HtmlLabel2.TabIndex = 4;
             this.guna2HtmlLabel2.Text = "Mot de passe";
             // 
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(97, 168);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(50, 22);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(44, 28);
             this.guna2HtmlLabel1.TabIndex = 3;
             this.guna2HtmlLabel1.Text = "Email";
             // 
@@ -168,14 +171,13 @@ namespace StockManagement
             // 
             // Connexion
             // 
-            this.Connexion.AutoSize = false;
+            this.Connexion.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.Connexion.BackColor = System.Drawing.Color.Transparent;
-            this.Connexion.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Connexion.Font = new System.Drawing.Font("Yu Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Connexion.Font = new System.Drawing.Font("Roboto", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Connexion.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Connexion.Location = new System.Drawing.Point(0, 0);
+            this.Connexion.Location = new System.Drawing.Point(193, 30);
             this.Connexion.Name = "Connexion";
-            this.Connexion.Size = new System.Drawing.Size(549, 100);
+            this.Connexion.Size = new System.Drawing.Size(147, 48);
             this.Connexion.TabIndex = 1;
             this.Connexion.Text = "Connexion";
             this.Connexion.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
@@ -193,6 +195,7 @@ namespace StockManagement
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
+            this.guna2Panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }

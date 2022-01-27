@@ -76,7 +76,7 @@ namespace StockManagement.Forms
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(454, 130);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(465, 130);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(153, 28);
             this.guna2HtmlLabel3.TabIndex = 13;
@@ -84,7 +84,7 @@ namespace StockManagement.Forms
             // 
             // addClientButton
             // 
-            this.addClientButton.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.addClientButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.addClientButton.BorderRadius = 10;
             this.addClientButton.CheckedState.Parent = this.addClientButton;
             this.addClientButton.CustomImages.Parent = this.addClientButton;
@@ -209,7 +209,7 @@ namespace StockManagement.Forms
             this.adresseTextbox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.adresseTextbox.HoverState.Parent = this.adresseTextbox;
             this.adresseTextbox.IconLeftOffset = new System.Drawing.Point(10, 0);
-            this.adresseTextbox.Location = new System.Drawing.Point(437, 158);
+            this.adresseTextbox.Location = new System.Drawing.Point(454, 158);
             this.adresseTextbox.MaximumSize = new System.Drawing.Size(427, 50);
             this.adresseTextbox.MinimumSize = new System.Drawing.Size(320, 50);
             this.adresseTextbox.Name = "adresseTextbox";
@@ -218,7 +218,7 @@ namespace StockManagement.Forms
             this.adresseTextbox.PlaceholderText = "Adresse";
             this.adresseTextbox.SelectedText = "";
             this.adresseTextbox.ShadowDecoration.Parent = this.adresseTextbox;
-            this.adresseTextbox.Size = new System.Drawing.Size(331, 50);
+            this.adresseTextbox.Size = new System.Drawing.Size(355, 50);
             this.adresseTextbox.TabIndex = 4;
             this.adresseTextbox.TextOffset = new System.Drawing.Point(10, 0);
             // 
