@@ -23,6 +23,7 @@ namespace StockManagement.Forms
             FournisseursSubMenu.Visible = false;
             SalesSubmenu.Visible = false;
             ProductsSubMenu.Visible = false;
+            ServicesSubmenu.Visible = false;
             OpenChildForm(new Dashboard());
 
         }
@@ -36,6 +37,8 @@ namespace StockManagement.Forms
                 ProductsSubMenu.Visible = false;
             else if (SalesSubmenu.Visible == true)
                 SalesSubmenu.Visible = false;
+            else if (ServicesSubmenu.Visible == true)
+                ServicesSubmenu.Visible = false;
         }
 
         private void ShowSubMenu(Panel subMenu)
@@ -67,6 +70,10 @@ namespace StockManagement.Forms
         private void ProductButton_Click(object sender, EventArgs e)
         {
             ShowSubMenu(ProductsSubMenu);
+        }
+        private void ServicesButton_Click(object sender, EventArgs e)
+        {
+            ShowSubMenu(ServicesSubmenu);
         }
 
         private Form activeForm = null; 
@@ -129,6 +136,31 @@ namespace StockManagement.Forms
         private void ProductList_Click(object sender, EventArgs e)
         {
             OpenChildForm(new ProductList());
+        }
+
+        private void AddCategory_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new AddCategory());
+        }
+
+        private void CategoryList_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new CategoryList());
+        }
+
+        private void AddService_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new AddService());
+        }
+
+        private void ServiceList_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ServiceList());
+        }
+
+        private void invoiceList_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ServiceInvoices());
         }
     }
 }

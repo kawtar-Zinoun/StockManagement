@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\AddCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddCategory.Designer.cs">
+      <DependentUpon>AddCategory.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\AddClient.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,12 @@
     <Compile Include="Forms\AddFournisseur.Designer.cs">
       <DependentUpon>AddFournisseur.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\AddInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddInvoice.Designer.cs">
+      <DependentUpon>AddInvoice.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\AddProduct.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +87,18 @@
     </Compile>
     <Compile Include="Forms\AddSale.Designer.cs">
       <DependentUpon>AddSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddService.Designer.cs">
+      <DependentUpon>AddService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CategoryList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CategoryList.Designer.cs">
+      <DependentUpon>CategoryList.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Dashboard.cs">
       <SubType>Form</SubType>
@@ -118,19 +142,43 @@
     <Compile Include="Forms\SalesList.Designer.cs">
       <DependentUpon>SalesList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\ServiceInvoices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ServiceInvoices.Designer.cs">
+      <DependentUpon>ServiceInvoices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ServiceList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ServiceList.Designer.cs">
+      <DependentUpon>ServiceList.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AddCategory.resx">
+      <DependentUpon>AddCategory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\AddClient.resx">
       <DependentUpon>AddClient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AddFournisseur.resx">
       <DependentUpon>AddFournisseur.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddInvoice.resx">
+      <DependentUpon>AddInvoice.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\AddProduct.resx">
       <DependentUpon>AddProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AddSale.resx">
       <DependentUpon>AddSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddService.resx">
+      <DependentUpon>AddService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CategoryList.resx">
+      <DependentUpon>CategoryList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
@@ -152,6 +200,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SalesList.resx">
       <DependentUpon>SalesList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ServiceInvoices.resx">
+      <DependentUpon>ServiceInvoices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ServiceList.resx">
+      <DependentUpon>ServiceList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

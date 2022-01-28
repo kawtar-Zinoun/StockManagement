@@ -39,13 +39,13 @@ namespace StockManagement.Forms
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.ClientDataGrid = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.EditButton = new Guna.UI2.WinForms.Guna2Button();
-            this.Deletebutton = new Guna.UI2.WinForms.Guna2Button();
             this.IdClient = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clientName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clientPrenom = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clientPhone = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ClientEmail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EditButton = new Guna.UI2.WinForms.Guna2Button();
+            this.Deletebutton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ClientDataGrid)).BeginInit();
@@ -117,6 +117,7 @@ namespace StockManagement.Forms
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ClientDataGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.ClientDataGrid.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.ClientDataGrid.BackgroundColor = System.Drawing.Color.White;
             this.ClientDataGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ClientDataGrid.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
@@ -143,7 +144,7 @@ namespace StockManagement.Forms
             dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(10);
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.ClientDataGrid.DefaultCellStyle = dataGridViewCellStyle3;
             this.ClientDataGrid.EnableHeadersVisualStyles = false;
             this.ClientDataGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
@@ -177,51 +178,6 @@ namespace StockManagement.Forms
             this.ClientDataGrid.ThemeStyle.RowsStyle.Height = 60;
             this.ClientDataGrid.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.ClientDataGrid.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
-            // EditButton
-            // 
-            this.EditButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.EditButton.BorderRadius = 10;
-            this.EditButton.CheckedState.Parent = this.EditButton;
-            this.EditButton.CustomImages.Parent = this.EditButton;
-            this.EditButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.EditButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.EditButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.EditButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.EditButton.DisabledState.Parent = this.EditButton;
-            this.EditButton.Font = new System.Drawing.Font("Poppins", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EditButton.ForeColor = System.Drawing.Color.White;
-            this.EditButton.HoverState.Parent = this.EditButton;
-            this.EditButton.Location = new System.Drawing.Point(815, 721);
-            this.EditButton.Name = "EditButton";
-            this.EditButton.ShadowDecoration.Parent = this.EditButton;
-            this.EditButton.Size = new System.Drawing.Size(137, 45);
-            this.EditButton.TabIndex = 2;
-            this.EditButton.Text = "Editer";
-            this.EditButton.TextOffset = new System.Drawing.Point(0, 2);
-            // 
-            // Deletebutton
-            // 
-            this.Deletebutton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Deletebutton.BorderRadius = 10;
-            this.Deletebutton.CheckedState.Parent = this.Deletebutton;
-            this.Deletebutton.CustomImages.Parent = this.Deletebutton;
-            this.Deletebutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.Deletebutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.Deletebutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.Deletebutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.Deletebutton.DisabledState.Parent = this.Deletebutton;
-            this.Deletebutton.FillColor = System.Drawing.Color.OrangeRed;
-            this.Deletebutton.Font = new System.Drawing.Font("Poppins", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Deletebutton.ForeColor = System.Drawing.Color.White;
-            this.Deletebutton.HoverState.Parent = this.Deletebutton;
-            this.Deletebutton.Location = new System.Drawing.Point(971, 721);
-            this.Deletebutton.Name = "Deletebutton";
-            this.Deletebutton.ShadowDecoration.Parent = this.Deletebutton;
-            this.Deletebutton.Size = new System.Drawing.Size(137, 45);
-            this.Deletebutton.TabIndex = 3;
-            this.Deletebutton.Text = "Supprimer";
-            this.Deletebutton.TextOffset = new System.Drawing.Point(0, 2);
             // 
             // IdClient
             // 
@@ -267,6 +223,51 @@ namespace StockManagement.Forms
             this.ClientEmail.MinimumWidth = 6;
             this.ClientEmail.Name = "ClientEmail";
             this.ClientEmail.ReadOnly = true;
+            // 
+            // EditButton
+            // 
+            this.EditButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.EditButton.BorderRadius = 10;
+            this.EditButton.CheckedState.Parent = this.EditButton;
+            this.EditButton.CustomImages.Parent = this.EditButton;
+            this.EditButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.EditButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.EditButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.EditButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.EditButton.DisabledState.Parent = this.EditButton;
+            this.EditButton.Font = new System.Drawing.Font("Poppins", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EditButton.ForeColor = System.Drawing.Color.White;
+            this.EditButton.HoverState.Parent = this.EditButton;
+            this.EditButton.Location = new System.Drawing.Point(817, 721);
+            this.EditButton.Name = "EditButton";
+            this.EditButton.ShadowDecoration.Parent = this.EditButton;
+            this.EditButton.Size = new System.Drawing.Size(137, 45);
+            this.EditButton.TabIndex = 2;
+            this.EditButton.Text = "Editer";
+            this.EditButton.TextOffset = new System.Drawing.Point(0, 2);
+            // 
+            // Deletebutton
+            // 
+            this.Deletebutton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Deletebutton.BorderRadius = 10;
+            this.Deletebutton.CheckedState.Parent = this.Deletebutton;
+            this.Deletebutton.CustomImages.Parent = this.Deletebutton;
+            this.Deletebutton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.Deletebutton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.Deletebutton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.Deletebutton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.Deletebutton.DisabledState.Parent = this.Deletebutton;
+            this.Deletebutton.FillColor = System.Drawing.Color.OrangeRed;
+            this.Deletebutton.Font = new System.Drawing.Font("Poppins", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Deletebutton.ForeColor = System.Drawing.Color.White;
+            this.Deletebutton.HoverState.Parent = this.Deletebutton;
+            this.Deletebutton.Location = new System.Drawing.Point(971, 721);
+            this.Deletebutton.Name = "Deletebutton";
+            this.Deletebutton.ShadowDecoration.Parent = this.Deletebutton;
+            this.Deletebutton.Size = new System.Drawing.Size(137, 45);
+            this.Deletebutton.TabIndex = 3;
+            this.Deletebutton.Text = "Supprimer";
+            this.Deletebutton.TextOffset = new System.Drawing.Point(0, 2);
             // 
             // ClientList
             // 
